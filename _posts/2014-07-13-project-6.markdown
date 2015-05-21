@@ -1,0 +1,14 @@
+---
+title: Tree of Life
+subtitle: (Almost) Everything Glows
+layout: default
+modal-id: 6
+date: 2015-05-20
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: April 2014
+subsubtitle: Does this work?
+description: Almost everything in the tree of life is bioluminescent
+
+---
