@@ -16,7 +16,7 @@ color:
 people:
 - name: Darrin Schultz
   pic: darrin
-  position: Male Model
+  position: Yeast Farmer
   social:
     - title: twitter
       url: #
@@ -27,7 +27,7 @@ people:
 
 - name: Dr. Steve Haddock
   pic: steve
-  position: Muse
+  position: PI
   social:
     - title: twitter
       url: #
@@ -38,7 +38,7 @@ people:
 
 - name: Lynne Christianson
   pic: lynne
-  position: Rockstar/CEO
+  position: Rockstar
   social:
     - title: twitter
       url: #
