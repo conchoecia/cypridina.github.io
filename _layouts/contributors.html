@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		{% include breadcrumbs.html %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				{{ content }}
+				{% for group in site.groups %}
+					<h3>{{ group.name }}</h3>
+					<div class="container"
+					<div class="row row-bottom-margin">
+						{% for member in group.people %}
+							<div class="col-sm-2" >
+								<div class="team-member" style="font-size:medium">
+									<img src="../images/team/{{ member.pic }}" class="img-responsive img-circle center-block" alt="">
+                                    <div style="font-weight:900">{{ member.name }}</div> 
+									<div style="font-size:small">{{ member.position }}</div>
+									<ul>
+										{% for network in member.social %}
+										<li>
+											<a href="{{ network.url }}">
+												<i class="fa fa-{{ network.title }} fa-lg"></i>
+											</a>
+										</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div> <!-- individual grid object -->
+						{% endfor %}
+				    </div> <!-- row grid object -->
+				{% endfor %}
+				</div>
+				<hr/>
+				<footer class="page-footer">
+					{% if page.categories %}{% include page-author.html %}{% endif %}
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+	</article><!-- ./wrap -->
+</div><!-- /#main -->

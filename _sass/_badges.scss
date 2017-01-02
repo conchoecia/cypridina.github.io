@@ -39,3 +39,115 @@
 		color: darken($badge-success-color, 60);
 	}
 }
+
+/* ==========================================================================
+   circ
+   ========================================================================== */
+.image-cropper {
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border:5px solid #FFFFFF
+    }
+
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: -webkit-filter 1s ease-in-out;
+    transition: filter 1s ease-in-out;
+    }
+
+
+.team-member {
+    margin-bottom: 10px;
+    text-align: center;
+    color: $white;
+    font-family: $heading-font;
+    }
+
+.team-member name {
+    font-weight: 900;
+    }
+
+.team-member img {
+    margin-bottom: 5px;
+    min-width: 150px;
+    min-height: 150px;
+    width: 150px;
+    height: 150px;
+    border: 7px solid #fff;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: -webkit-filter 1s ease-in-out;
+    transition: filter 1s ease-in-out;
+    }
+
+.team-member h6 {
+   line-height: 0.1;
+}
+
+/*this removes the vertical space between rows*/
+h3 { margin-bottom:0px; margin-top: -30px; }
+
+
+/* Disable grayscale on hover */
+.team-member img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  }
+
+// found a good guide to buttons here:
+// https://coolestguidesontheplanet.com/creating-social-media-menu-icons-fontawesome/
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+    display:inline-block;
+    }
+
+ul li {
+    list-style-type: none;
+    float: left;
+    }
+ul li a {
+    outline: 0;
+    }
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 25%;
+    transition: all 0.2s ease-in-out;
+    }
+
+ul li a i:hover {
+    opacity: .7;
+    }
+
+/* for images with captions */
+figure{
+  display:table;
+  }
+  figcaption{
+    display:table-caption;
+    caption-side:bottom;
+  }
+
+div a img {
+  height: 200%;
+}

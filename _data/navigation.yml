@@ -4,3 +4,11 @@
   url: /contributors/
   excerpt: "People who contribute to GLO"
   image:
+- title: Mission
+  url: /mission/
+  excerpt: "Our scientific mission"
+  image:
+- title: Species
+  url: /species/
+  excerpt: "target species"
+  image:

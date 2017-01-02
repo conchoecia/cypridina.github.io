@@ -2,13 +2,105 @@
 
 title: "glo"
 description: "Genomes of Luminous Organisms"
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: glo_120px.jpg
+teaser: test_header.gif
 locale: en
 url:
 feed:
   path: atom.xml
 
+excerpt_separator: "o87q23ljbszhmbsdfmjxjryw3isdufhzcx,jehjzhdf,uih" 
+# Members info
+
+groups:
+- name: Haddock Lab
+  people:
+  - name: Steve Haddock
+    pic: steve.jpg
+    position: PI
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+
+  - name: Darrin Schultz
+    pic: darrin.jpg
+    position: PhD Student
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+
+  - name: Lynne Christianson
+    pic: lynne.jpg
+    position: Lab Technician
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+  
+  
+  - name: Severine Martini
+    pic: severine.jpg
+    position: Data plotter
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+  
+  - name: Jacob Winnikoff
+    pic: jacob.jpg
+    position: Cteno-freezer
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+
+- name: Oba Lab
+  people:
+  - name: Yuichi Oba
+    pic: oba.jpg
+    position: PI
+    social:
+      - title: bug
+        url: http://www3.chubu.ac.jp/faculty/oba_yuichi/English/
+  - name: octo
+    pic: octo.png
+    position: friend
+    social:
+      - title: twitter
+        url: twitter.com
+      - title: facebook
+        url: facebook.com
+      - title: stack-overflow
+        url: stack-overflow.com
+
+
+- name: Individuals
+  people:
+  - name: Joseph Ryan
+    pic: joe_ryan.jpg
+    position: PI
+    social:
+      - title: twitter
+        url: twitter.com
+
+   
 # Jekyll configuration
 
 sass:

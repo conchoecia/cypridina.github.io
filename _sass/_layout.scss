@@ -5,7 +5,7 @@
 body {
   padding-bottom: 20px;
   margin: 0px;
-  background: #202020;
+  background: $black;
 }
 
 /*
@@ -48,7 +48,7 @@ body {
 
 /* this is the menu for special links */
 .menu {
-	li { 
+	li {
        /* background-color: $pink; */
 		float: left;
 		&:last-child a {
@@ -155,7 +155,7 @@ body {
    ========================================================================== */
 
 #main {
-    background-color: $blau;
+    background-color: $black;
 	.inner-wrap {
 		@include media($medium) {
 			@include span-columns(9);
@@ -178,9 +178,11 @@ body {
 			a { text-decoration: none; }
 			p a,
 			li a {
-				border-bottom: 1px dotted lighten($link-color, 50);
+				// border-bottom: 1px dotted lighten($link-color, 50);
+				border-bottom: none;
 				&:hover {
-					border-bottom-style: solid;
+					//border-bottom-style: solid;
+					border-bottom-style: none;
 				}
 			}
 			p > a.reversefootnote {
@@ -240,6 +242,29 @@ body {
 		}
 	}
 }
+
+// Parallax video
+
+.ParallaxVideo{
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  }
+.ParallaxVideo video{
+  min-width: 100%;
+  position: fixed;
+  top:0;
+  z-index: -999;
+  }
+.ParallaxVideo h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+
 // page lead
 .page-lead {
     background-color: $green;
@@ -253,6 +278,8 @@ body {
 	}
 }
 .page-lead-content {
+    margin-top: -100px;
+	text-align: center;
 	padding: 1em;
 	@include media($medium) {
 		padding: 2em;
@@ -318,7 +345,7 @@ body {
    ========================================================================== */
 
 .page-footer {
-background-color: $green;
+background-color: $orange;
 	position: relative;
 }
 
