@@ -151,3 +151,184 @@ figure{
 div a img {
   height: 200%;
 }
+
+/* This section is for the pop-ups on the species page */
+// http://jsfiddle.net/joshnh/daFDn/
+
+// Everything for Tuesday here:
+.Tuesday-grand{
+    width:600px;
+    height:auto;
+    border: 1px solid red;
+    //margin-LR center the div
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.LeftBase{
+   position: relative;
+   width:33.333%;
+   height:auto;
+   float:left;
+   }
+
+.LeftBase img{
+   width:100%;
+   height:auto;
+   }
+
+// this contains the second images
+.MiddleRight{
+   position: relative;
+   float: left;
+   width: 66.666%;
+   height:auto;
+   }
+
+.leftMouse {
+    position: absolute;
+    overflow:show;
+    opacity: 0;
+    left:0% /**distance from left of image */;
+    width:33%; /**region width*/;
+    }
+
+#TuesdayDefault {
+    top: 0%/**distance from top of image */;
+    left:50% /**distance from left of image */;
+    width:50%; /**region width*/;
+    height:50% /**region height*/;
+    background:#fff;
+    }
+
+#Bacteria.leftMouse {
+    top: 0%/**distance from top of image */;
+    height:4.5% /**region height*/;
+    background:#fff;
+    }
+
+#Sar.leftMouse {
+    top: 4.5%/**distance from top of image */;
+    height:7.5% /**region height*/;
+    background:#5CFF00;
+    }
+
+#Fungi.leftMouse {
+    top: 12%/**distance from top of image */;
+    height:7% /**region height*/;
+    background:#FF0000;
+    }
+
+#Ctenophora.leftMouse {
+    top: 19%/**distance from top of image */;
+    height:6.5% /**region height*/;
+    background:#00FFFF;
+    }
+
+#Cnidaria.leftMouse {
+    top: 25.5%/**distance from top of image */;
+    height:7% /**region height*/;
+    background:#FF00EA;
+    }
+
+#Polychaeta.leftMouse {
+    top: 32.5%/**distance from top of image */;
+    height:7% /**region height*/;
+    background:#5CFF00;
+    }
+
+#Mollusca.leftMouse {
+    top: 39.5%/**distance from top of image */;
+    height:7.5% /**region height*/;
+    background:yellow;
+    }
+
+#Chaetognatha.leftMouse {
+    top: 47%/**distance from top of image */;
+    height:7.5% /**region height*/;
+    background:#FF0000;
+    }
+
+#Insecta.leftMouse {
+    top: 54.5%/**distance from top of image */;
+    height:8.5% /**region height*/;
+    background:#00FFFF;
+    }
+
+#Crustacea.leftMouse {
+    top: 63%/**distance from top of image */;
+    height:7.5% /**region height*/;
+    background:#FF00EA;
+    }
+
+#Myriapoda.leftMouse {
+    top: 70.5%/**distance from top of image */;
+    height:6.5% /**region height*/;
+    background:#fff;
+    }
+
+#Echinodermata.leftMouse {
+    top: 77%/**distance from top of image */;
+    height:8% /**region height*/;
+    background:#5CFF00;
+    }
+
+#Vertebrata.leftMouse {
+    top: 85%/**distance from top of image */;
+    height:6% /**region height*/;
+    background:#FF0000;
+    }
+
+#Tunicata.leftMouse {
+    top: 91%/**distance from top of image */;
+    height:9% /**region height*/;
+    background:#00FFFF;
+    }
+
+.MiddleRight .RightPanel{
+    position: absolute;
+    overflow:show;
+    left:50% /**distance from left of image */;
+    width:50%; /**region width*/;
+    }
+
+.MiddleRight .RightPanel img{
+    display: none;
+    }
+
+
+.MiddleRight .MiddleOption {
+    position: absolute;
+    overflow:show;
+    left:0% /**distance from left of image */;
+    width:50%; /**region width*/;
+    display: none;
+    }
+
+.MiddleRight .MiddleOption img{
+   height:auto;
+   float: left;
+   opacity: 1.0;
+   width: 100%;
+   }
+
+.MiddleRight .MiddleOption .MiddleMouse{
+    position: absolute;
+    overflow:show;
+    opacity: 0.25;
+    left:0% /**distance from left of image */;
+    width:50%; /**region width*/;
+    }
+
+#MotyxiaMiddle.MiddleMouse {
+    top: 22%/**distance from top of image */;
+    height:5% /**region height*/;
+    background:#fff;
+    }
+
+#SquidMiddle.MiddleMouse {
+    top: 52%/**distance from top of image */;
+    height:8% /**region height*/;
+    background:#fff;
+    }
+
