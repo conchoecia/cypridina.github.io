@@ -13,4 +13,4 @@ button1:
 
 
 
-This is the home page. :)
+Welcome to the GLO project home page.

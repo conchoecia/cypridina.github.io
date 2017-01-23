@@ -22,20 +22,8 @@
 //     $("#TunicataPanel").hide();
 
 $("#Bacteria").hover(function (e) {
-     //Hide all panels that aren't self
-     $("#SarPanel").hide();
-     $("#FungiPanel").hide();
-     $("#CtenophoraPanel").hide();
-     $("#CnidariaPanel").hide();
-     $("#PolychaetaPanel").hide();
-     $("#MolluscaPanel").hide();
-     $("#ChaetognathaPanel").hide();
-     $("#InsectaPanel").hide();
-     $("#CrustaceaPanel").hide();
-     $("#MyriapodaPanel").hide();
-     $("#EchinodermataPanel").hide();
-     $("#VertebrataPanel").hide();
-     $("#TunicataPanel").hide();
+     //Hide all middle panels
+     $(".MiddleOption").hide();
      //Hide all right panels that aren't self
      $("#RightPanelAll").hide();
      //show the self panel
@@ -43,19 +31,8 @@ $("#Bacteria").hover(function (e) {
 });
 
 $("#Sar").hover(function (e) {
-     $("#BacteriaPanel").hide();
-     $("#FungiPanel").hide();
-     $("#CtenophoraPanel").hide();
-     $("#CnidariaPanel").hide();
-     $("#PolychaetaPanel").hide();
-     $("#MolluscaPanel").hide();
-     $("#ChaetognathaPanel").hide();
-     $("#InsectaPanel").hide();
-     $("#CrustaceaPanel").hide();
-     $("#MyriapodaPanel").hide();
-     $("#EchinodermataPanel").hide();
-     $("#VertebrataPanel").hide();
-     $("#TunicataPanel").hide();
+     //Hide all middle panels
+     $(".MiddleOption").hide();
      //Hide all right panels that aren't self
      $("#RightPanelAll").hide();
      //show the self panel
@@ -63,24 +40,113 @@ $("#Sar").hover(function (e) {
 });
 
 $("#Fungi").hover(function (e) {
-     $("#BacteriaPanel").hide();
-     $("#SarPanel").hide();
-     $("#CtenophoraPanel").hide();
-     $("#CnidariaPanel").hide();
-     $("#PolychaetaPanel").hide();
-     $("#MolluscaPanel").hide();
-     $("#ChaetognathaPanel").hide();
-     $("#InsectaPanel").hide();
-     $("#CrustaceaPanel").hide();
-     $("#MyriapodaPanel").hide();
-     $("#EchinodermataPanel").hide();
-     $("#VertebrataPanel").hide();
-     $("#TunicataPanel").hide();
+     //Hide all middle panels
+     $(".MiddleOption").hide();
      //Hide all right panels that aren't self
      $("#RightPanelAll").hide();
      //show the self panel
      $("#FungiPanel").show();
 });
+$("#Ctenophora").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#CtenophoraPanel").show();
+});
+$("#Cnidaria").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#CnidariaPanel").show();
+});
+$("#Polychaeta").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#PolychaetaPanel").show();
+});
+$("#Mollusca").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#MolluscPanel").show();
+});
+$("#Chaetognatha").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#ChaetognathaPanel").show();
+});
+$("#Hexapod").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#HexapodPanel").show();
+});
+$("#Crustacea").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#CrustaceaPanel").show();
+});
+$("#Myriapoda").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#MyriapodPanel").show();
+});
+$("#Echinodermata").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#EchinodermPanel").show();
+});
+$("#Vertebrata").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#VertebratePanel").show();
+});
+$("#Tunicata").hover(function (e) {
+     //Hide all middle panels
+     $(".MiddleOption").hide();
+     //Hide all right panels that aren't self
+     $("#RightPanelAll").hide();
+     //show the self panel
+     $("#TunicatePanel").show();
+});
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //**************************************************************
