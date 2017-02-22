@@ -5,4 +5,4 @@ permalink: /contributors/
 share: false
 ---
 
-These are the contributors.
+These are the contributors to the GLO project.

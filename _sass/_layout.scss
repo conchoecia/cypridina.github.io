@@ -13,7 +13,8 @@ body {
    ========================================================================== */
 
 #masthead {
-/* background-color: $orange; */
+    /* this is the top where the logo and sites go */
+    /* background-color: $orange; */
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
@@ -26,6 +27,8 @@ body {
 	}
 }
 .site-title {
+    /* this is the small div where the logo itself and title are located */
+    /* background-color: $orange; */
 	@include row;
 	@include media($large) {
 		@include span-columns(4);
@@ -34,7 +37,7 @@ body {
 	height: $masthead-height;
 	text-decoration: none;
 	color: $white;
-	font-family: $alt-font;
+	font-family: $home-font;
 	font-weight: 700;
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
@@ -124,7 +127,8 @@ body {
 /* Bottom menu navigation */
 
 .bottom-menu {
-    background-color: $pink;
+    /*background-color: $pink;*/
+    background-color: $black;
 	@include clearfix;
 	font-weight: 700;
 	a {
@@ -132,13 +136,12 @@ body {
 	}
 }
 
-
-/*
-   Page wrapper
+/* Page wrapper
    ========================================================================== */
 
 #page-wrapper {
-    background-color: $yellow;
+    /*background-color: $yellow;*/
+    background-color: $black;
 	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
@@ -155,7 +158,9 @@ body {
    ========================================================================== */
 
 #main {
-    background-color: $black;
+    /* this is the main content of the website */
+    /* background-color: $orange; */
+    font-family: $home-font;
 	.inner-wrap {
 		@include media($medium) {
 			@include span-columns(9);
@@ -267,7 +272,8 @@ body {
 
 // page lead
 .page-lead {
-    background-color: $green;
+    /*background-color: $green; */
+    background-color: $black;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -288,6 +294,7 @@ body {
 		padding: 3em;
 	}
 	h1 {
+	    font-family: $home-font;
 		@include font-size(48);
 		@include media($medium) {
 			@include font-size(60);
@@ -297,6 +304,7 @@ body {
 		}
 	}
 	h2 {
+       	font-family: $home-font;
 		@include font-size(20);
 		@include media($medium) {
 			@include font-size(24);
@@ -308,7 +316,8 @@ body {
 }
 // page header
 .page-feature {
-    background-color: $pink;
+    /*background-color: $pink;*/
+    background-color: $green;
 	@include fill-parent;
 	// expand image to cover full width of header
 	img {
@@ -379,7 +388,8 @@ background-color: $orange;
    ========================================================================== */
 
 #site-footer {
-background-color: $green   ;
+    /* background-color: $green; */
+    background-color: $black;
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
